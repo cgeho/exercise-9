@@ -1,0 +1,59 @@
+body {
+  font: 16px/1.5 sans-serif;
+}
+
+/* Do not touch the div CSS block! */
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+
+/* Add your styles for each box below this line */
+
+#box01 {
+  background-color: rgba(28,104,167,1);
+
+  padding-top: 20px;
+}
+
+#box02 {
+  background-color: rgba(28,104,167,0.8);
+
+  border-right: 2px solid rgba(28,104,167,1);
+  border-left: 2px solid rgba(28,104,167,1);
+
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+
+  padding-bottom: 20px;
+}
+
+#box03 {
+  background-color: rgba(28,104,167,0.6);
+
+  border-top: 2px solid rgba(28,104,167,1);
+  border-bottom: 2px solid rgba(28,104,167,1);
+
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#box04 {
+  background-color: rgba(28,104,167,0.4);
+
+  border-bottom: 2px solid rgba(28,104,167,1);
+  border-left: 2px solid rgba(28,104,167,1);
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
